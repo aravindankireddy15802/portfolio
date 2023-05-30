@@ -1,0 +1,573 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+      
+      font-family: 'Montserrat', sans-serif;
+      
+}
+
+
+
+
+                                   /*__________navbar__________*/
+
+
+
+.navbar-brand{
+    margin-left: 0.5rem;
+}
+.navbar-nav{
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+.nav-item{
+    font-weight: 300;
+}
+                                    /*________hero_section________*/
+
+.hr{
+    margin-top: 0.4rem;
+    margin-bottom: 0;
+
+}
+#section_text,.hero_section_anim_content{
+    margin-left: 1rem;
+}
+#section_text{
+    font-size: 1.9rem;
+    left: 0;
+}
+.hero_section{
+    height: 80vh;
+    width: 100vw;
+    margin-top: 2rem;
+    padding: 0 2rem 0 2rem;
+}
+.anim_content{
+    margin-top: 1.5rem;
+}
+
+.thisIs{
+    font-weight: 50;
+    font-size: 17px;
+
+}
+.iam{
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.hero_section_anim_content{
+    overflow: hidden;
+    height: 50px;
+}
+.hero_section_content{
+    padding:  0 0.7rem;
+}
+.anim_text:nth-child(1){
+    animation: flowup 1s  4s both;
+    height: 50px;    
+}
+.anim_text:nth-child(2){
+    color: #fdd007;
+    font-size: 1.9rem;
+}
+@keyframes flowup {
+    
+    to{
+        margin-top : -65px;
+    }   
+    
+}
+
+
+.cv_button{
+    background-color:black;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    border: 1.5px solid white;
+    width: 8rem;
+    margin: 8% 20% ;
+}
+.cv_button:hover{
+    border: 1.5px solid rgb(88, 88, 88);
+    cursor: pointer;
+}
+
+
+
+
+                                     /*___________about_container_______*/
+                                              
+.about{
+    font-weight: 500;
+    font-size: 2.5rem;
+    position: absolute;
+    z-index: 1;
+    color:rgb(157, 156, 155);
+    margin-right: 1.2rem;
+    margin-top: 4%;
+    text-align: right;
+}
+
+.abhi_photo{
+    width:100vw;
+    height: auto;
+    margin-left: -14%;
+    margin-top: 18%;
+}
+.abhi_content{
+    color: #7d6704;
+    z-index:1;
+    position: absolute;
+    top: 16%;
+    right: 6%;
+    font-size: 1.2rem;
+    font-weight: 390;
+    text-align: right;
+}
+.about_content{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.abhi_content_section{
+    width: 100vw;
+    align-content:flex-end;
+    display: flex;
+}
+                               /*----------skill content--------*/
+
+ .skills_container{
+    width: 100vw;
+    height: auto;
+    
+ }
+ .skill_head{
+    text-align: right;
+    margin-right: 5%;
+    font-weight: 500;
+    font-size: 3rem;
+    color:rgb(157, 156, 155);
+ }
+ .skills_list{
+    margin: 5% 6%;
+ }
+
+ .skill_bar{
+    background-color: white;
+    border-radius: 1rem;
+    height: 5px;
+    margin-bottom: 10px;
+    
+ }
+
+ .skill{
+    margin-bottom: 2rem;
+ }
+ .skill p{
+    font-size: 1rem;
+ }
+ 
+
+ .c{
+    width: 80%;
+    height: 100%;
+ }
+ .cpp{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 1rem;
+ }
+ .java{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 1rem;
+ }
+ .html{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    border-radius: 1rem;
+ }
+ 
+ .css{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 1rem;
+ }
+ .js{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border-radius: 1rem;
+ }
+ 
+ .react{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 1rem;
+ }
+ .mysql{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 1rem;
+ }
+ .contact_section{
+    width: 100vw;
+    height: 98vh;
+ }
+ .contact_head{
+    text-align: right;
+    margin: -1%  10% 0 0;
+    font-weight: 500;
+    font-size: 2.5rem;
+
+ }
+ .contact_form{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 10% 12% 0 12%;
+    height: auto;
+ }
+ input{
+    border: none;
+    border-bottom:2px solid rgb(88, 87, 87);
+    background-color: transparent;
+    outline: none;
+    color: white;
+ }
+ input[type=text]{
+    margin-bottom: 2rem;
+ }
+ label{
+    margin: 2rem 0 0.3rem 0;
+    color:rgb(88, 87, 87);
+ }
+ 
+ textarea[type=text]{
+    background-color: transparent;
+    height: 40vw;
+    outline: none;
+    color: white;
+ }
+ .submit_btn{
+    background-color: transparent;
+    color: rgb(87, 87, 87);
+    margin-top: 2rem;
+    width: 60%;
+    outline: none;
+    font-weight: 400;
+    cursor: pointer;
+ }
+ footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(68, 68, 68);
+ }
+ .footer_div1{
+    width: 100vw;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+
+ }
+ .fa-instagram,.fa-linkedin{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    margin-top: 5%;
+ }
+ .footer_div2{
+    width: 100vw;
+    height: 15px;
+    bottom: 0px;
+    margin-top: 1rem;
+ }
+ .end{
+    font-size: 0.8rem;
+    font-weight: 400;
+    bottom: 0;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 0;
+    box-sizing: border-box;
+ }
+ .fa-heart{
+    margin-bottom: 0;
+ }
+ 
+@media (min-width:768px) {
+
+    .navbar-brand{
+           margin-left: 2rem;
+       } 
+       .navbar-toggler{
+           margin-right: 1rem;
+       }
+       .nav-item{
+           font-size: 1.2rem;
+       }
+       #section_text,.anim_text:nth-child(2){
+           font-size: 2.3rem;
+       }
+       .cv_button{
+          width: 8rem;
+    }
+     .about{
+       margin: 1rem  10% 0 0;
+       font-weight: 500;
+       font-size: 3.5rem;
+
+     }
+    
+    .abhi_photo{
+        width: auto;
+        height: 100vh;
+        margin-left: 4%;
+        margin-top: 0;
+    }
+    .abhi_content{
+        top:20% ;
+        right:10%;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+    .skills_list{
+        margin: 6% 8%;
+     }
+     .skill_head{
+        margin-right: 10%;
+        font-size: 4rem;
+     }
+     .contact_form{
+        margin: 2rem 15% 0 15%;
+     }
+     .contact_head{
+        margin-top: 2rem;
+     }
+     .contact_section{
+        height: auto ;
+     }
+     .submit_btn{
+        width: 30vw;
+     }
+     footer{
+        margin-top: 20%;
+        height: 30vh;
+     }
+     .footer_div1{
+       gap: 3em;
+     }
+     .fa-instagram,.fa-linkedin{
+        font-size: 2.5rem;
+     }
+     .end{
+        font-size: 0.9rem;
+        bottom: 0;
+        margin-top: 2.2rem;
+     }
+
+}
+@media (min-width:992px) {
+    .navbar{
+        height: 60px;
+    }
+    .nav-link{
+        font-size: 1rem;
+    }
+}
+@media (min-width:1024px) {
+    .landing_page{
+        width: 100vw;
+    }
+      .navbar{
+          height: 60px;
+      }
+      .thisIs,.iam{
+        width: 100%;
+    
+    }
+      .cv_button:hover{
+        border: 1.5px solid rgb(88, 88, 88);
+        cursor: pointer;
+    }
+    .cv_button{
+        margin: 3rem 0 0 6rem;
+    }
+ 
+    .about{
+        font-size: 3.5rem;
+        margin-top: 1.5rem;
+    }
+    .abhi_content{
+        font-size: 2.4rem;
+        top: 20%;
+    }
+    .abhi_photo{
+        height: 100vh;
+        width: auto;
+        margin-left: 5%;
+    }
+    .hero_section_content{
+        margin-top: 3rem;
+    }
+    .skills_list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3%;
+    }
+    .skills_list span{
+        width: 50vw;
+        height: auto;
+    }
+     .skills_list{
+        margin: 6% 10%;
+     }
+     .contact_section{
+        height: auto ;
+     }
+     .submit_btn{
+        width: 30%;
+     }
+     footer{
+        height: 30vh;
+     }
+     .end{
+        margin-top: 2.8rem;
+     }
+     .fa-instagram,.fa-linkedin{
+        font-size: 2.5rem;
+        margin-top: 4rem;
+     }
+     .footer_div1{
+        gap: 8%;
+     }
+    
+}
+@media (min-width:1440px) {
+    .customNavbar{
+          width: 100vw;
+      }
+    .nav-link{
+        font-size: 1.2rem;
+    }
+    .thisis , .iam{
+        font-size:20px ;
+    }
+    #section_text,.anim_text:nth-child(2){
+        font-size: 3rem;
+    }
+   .hero_section_container{
+       margin-top: 5rem;
+   }
+ 
+   .cv_button:hover{
+    border:1.5px solid rgb(88, 88, 88);
+    cursor: pointer;
+  }
+  .cv_button{
+    margin: 4rem 0 0 6rem;
+}
+.about{
+    font-size: 5rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+.about_content{
+    height: 130vh;
+}
+.abhi_content{
+    font-size: 2rem;
+}
+
+.abhi_content{
+    font-size: 3rem;
+}
+.abhi_photo{
+    width: auto;
+    height: 120vh;
+    margin-left: 10%;
+    margin-top: 0;
+}
+.skill_head{
+    font-size: 5rem;
+}
+.skills_container{
+    z-index: 1000;
+}
+.skill{
+    margin-bottom: 2rem;
+}
+.skills_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3%;
+}
+.skill p {
+    font-size: 1.2rem;
+}
+.skills_list span{
+    width: 50vw;
+    height: auto;
+}
+.contact_head{
+    font-size: 4rem;
+}
+.contact_form{
+    width: 50%;
+    margin: 4rem 20% 0 20%;
+}
+input[type=email]{
+    margin-top: 1.2rem;
+}
+label{
+    margin-top: 2rem;
+}
+textarea[type=text]{
+    height: 40vh;
+}
+.submit_btn{
+    border: 1.5px solid rgb(88, 88, 88);
+}
+.submit_btn:hover{
+    border: 1.5px solid white;
+    color: white;
+
+}
+footer{
+    height: 30vh;
+    bottom: 0;
+ }
+ .footer_div1 a{
+  margin-top: 5%;
+ }
+.fa-instagram,.fa-linkedin{
+    font-size: 3rem;
+    margin-top: 6%;
+ }
+.end{
+   margin-top: 4rem;
+   font-size: 1rem;
+}
+
+}
+
+
